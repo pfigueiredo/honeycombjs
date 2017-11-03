@@ -1,0 +1,19 @@
+{
+  "name": "honeycomb-dsl",
+  "version": "1.2.0",
+  "description": "Honeycomb DSL - Excel compatible, compiled DSL for Timesheet and Payroll Calculations",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "js-array-extensions": "^1.0.8",
+    "moment": "^2.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha ./tests/*Test*.js"
+  },
+  "author": "Pedro Figueiredo <pedro.figueiredo@t3k.pt> (http://www.t3k.pt)",
+  "license": "T3K License"
+}
