@@ -1,6 +1,32 @@
 # Honeycomb DSL (a.k.a. HoneycombJs)
 Honeycomb DSL - Excel compatible, compiled DSL for TimeSheet and Payroll Calculations
 
+## Instalation
+
+### Amazon Aws Lambda:
+Upload the contents of the root as a zip to AWS Lambda service. (read the AWS Lambda Documentation for more info)
+
+
+### Node.js:
+
+Install dependencies with
+```
+npm install
+```
+
+Run the microservice with
+```
+node server.js
+```
+
+### Web browser
+use the browsified honeycomb.js file
+```
+<script src="honeycomb.js"></script>
+```
+
+contact the author for more info.
+
 ## The Language
 
 ### Simple Expressions
