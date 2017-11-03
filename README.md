@@ -104,5 +104,10 @@ ex2. Calculate 6 digits of Pi using with "Array functions"
 
 ```
 [P[0:100]] = { row * 2 }
-R = { ROUND(SUM( IF([row] = 0, 3, 4/([P] * ([P] + 1) * ([P] + 2))) * IF(OR([row] = 0, ISODD([row])), 1, -1) ), 6) }
+R = { 
+  ROUND(
+    SUM(IF([row] = 0, 3, 4/([P] * ([P] + 1) * ([P] + 2))) * IF(OR([row] = 0, ISODD([row])), 1, -1) ), 
+    6
+  ) 
+}
 ```
